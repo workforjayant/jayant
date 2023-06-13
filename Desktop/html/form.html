@@ -1,0 +1,69 @@
+<html>
+    <head>
+<title>
+    forms
+</title>
+    </head>
+    <body >
+<font size="40px" color="orange">
+    FORM PAGE
+</font><hr border-color="yellow">
+<form>
+    <label for ="name">ENTER YOUR NAME</label>
+    <input type="text" id="name" placeholder="enter name">
+<br>
+<lable for="email">ENTER YOUR E-mail</lable>
+<input type="email" id="email" placeholder="enter email"><br>
+<lable for="number">ENTER YOUR NUMBER</lable>
+<input type="number" id="number" placeholder="enter number"><br>
+<lable for="date">DATE</lable>
+<input type="date" id="date" placeholder="enter date" min="1990-01-01" max="2025-12-31"><br>
+<lable for="file">FILE</lable>
+<input type="file" id="file" placeholder="enter file"><br>
+<lable for="url">ENTER YOUR URL</lable>
+<input type="url" id="url" placeholder="enter url"><br>
+<p>PLEASE SELECT YOUR GENDER</p>
+<lable for =male>male</lable>
+<input type="radio" id="male" name="gender">
+<lable for =female>female</lable>
+<input type="radio" id="female" name="gender"><br><p>select language</p>
+<lable for =hindi>HINDI</lable>
+<input type="checkbox" id="language" name="language"disabled>
+<lable for = "english">english</lable>
+<input type="checkbox" id="english" name="language"><br>
+<lable for="vehicles">PLEASE SELECT VEHICLE</lable>
+<select id="vehicles" size="2">
+    <option>car </option>
+    <option>bike</option>
+    <option>bus</option>
+    <option>train</option>
+    <option>metro</option>
+    <option>airoplane</option>
+</select>
+<input type="image" src="image/tree.jpg" height="20px" width="80px">
+<input type="datetime-local"><br>
+<input type="tel" pattern="[6-8]{4}-[5-7]{4}-[8-9]{2}">
+<textarea>you are very good boy mr.Jayant kumawat</textarea>
+<fieldset>
+    <legend>PERSONAL DETAILS</legend>
+    <label for ="name">ENTER YOUR NAME</label>
+    <input type="text" id="name" placeholder="enter name">
+<br>
+<lable for="email">ENTER YOUR E-mail</lable>
+<input type="email" id="email" placeholder="enter email"><br>
+<lable for="number">ENTER YOUR NUMBER</lable>
+<input type="number" id="number" placeholder="enter number"readonly><br>
+<lable for="date">DATE</lable>
+<input type="date" id="date" placeholder="enter date" min="1990-01-01" max="2025-12-31"><br>
+<lable for="file">FILE</lable>
+<input type="file" id="file" placeholder="enter file"><br>
+</fieldset>
+<input list="list">
+<datalist id="list">
+    <option value="car"></option>
+<option value="bike"></option>   <option value="train"></option>
+<option value="truck"></option>
+</datalist>
+</form>
+    </body>
+</html>
